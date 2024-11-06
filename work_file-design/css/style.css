@@ -1,0 +1,181 @@
+
+/* star main rulez */
+body
+{
+    height: 1000px;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+    
+}
+    
+.clearfix{ clear: both; }
+/* end main rulez */
+
+/*star header */
+header .slider{background-color: #EEE;height: 500px;}
+header nav{
+    background: #252F31;
+    color: #FFF;
+    overflow: hidden;
+    }
+
+header nav h2{float: left; text-transform: uppercase;}
+
+header nav h2 span{  color: #2ecc71;}
+
+header nav  ul{
+    padding-left: 0;
+    list-style: none;
+    float: right;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+header nav ul li{
+    float: left;
+   padding: 20px;
+ }
+
+/*end header */
+/* star featueres */
+main 
+{
+    overflow: hidden;
+}
+main .feat
+{
+    width: 33.33%;
+    background: #DDD;
+    height: 150px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main .feat h2 {text-transform: uppercase;}
+/* End Featueres */
+
+/* Star About Me  */
+.about-me{background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.about-me .imagee {
+    float:left;
+    width: 40%;
+
+}
+.about-me .imagee img {
+    width: 100%;
+}
+.about-me .inf{
+    float: left;
+    width: 60%;
+
+}
+.about-me .inf .hobbes {
+   
+   margin: 20px;
+   overflow: hidden;
+}
+.about-me .inf .hobbes > div{
+    width: 50%;
+    min-height: 100px;
+    float: left;
+}
+
+/* End About Me  */
+/* Star My Skills */
+.My-Skills{
+   padding-top: 30px;
+   padding-bottom: 30px;
+   overflow: hidden;
+}
+.My-Skills .skills,.My-Skills .progrees{
+    width: 50%;
+    float: left;
+}
+/* End My Skills */
+/* Star resume */
+.resume{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #F2F2F2;
+    text-align: center;
+}
+/* End resume */
+/* Star My edouction */
+.My-edouction{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+ }
+ .My-edouction .main,.My-edouction .exp{
+     width: 50%;
+     float: left;
+ }
+
+ 
+ /* End My edouction */
+ /* Star testimonial */
+.testimonials{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #F2F2F2;
+    text-align: center;
+}
+/* End testimonial */
+/* star portfolio */
+.portfolio{
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+  
+
+   
+}
+.portfolio .our-port{
+    overflow: hidden;
+}
+.portfolio .our-port >div{
+    width: 32%;
+    
+    float: left;
+}
+.portfolio .our-port >div img{
+    width: 92%;
+    margin: 10px;
+
+}
+
+/* end portfolio */
+/*  Star contact Me*/
+.contact-me{
+    background-color: #252F31;
+    overflow: hidden;
+}
+.contact-me h2{
+    color:#FFF;
+}
+.contact-me p{
+    color: #6A6E71;
+}
+.contact-me .inf ,
+.contact-me .from{
+    width: 50%;
+    float: left;
+}
+/*  End contact Me*/
+/* star footer  */
+footer{
+    background-color: #191E22;
+    color: #6A6E71;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* end footer  */
