@@ -15,7 +15,39 @@ body
 /* end main rulez */
 
 /*star header */
-header .slider{background-color: #EEE;height: 500px;}
+header .slider{
+    background-image: url("../image/computer.jpg");
+    height: 600px;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header .slider .intro {
+    padding-top:200px;
+    margin: 0;
+    text-align: center;}
+
+header .slider .intro h2{ margin: 0 auto ;
+    font-size: 50px;
+    width: 600px;
+    border-top: 4px solid #888;
+    border-bottom:4px #888 solid;
+    /* text-transform: uppercase; */
+    padding-top: 4px 0;
+
+}
+header .slider .intro button{
+    margin-top: 30px;
+    background: none;
+    font-size: 30px;
+    border: 2px #a09c9c solid;
+    font-weight: bold;
+    padding: 10px 20px;
+
+}
 header nav{
     background: #252F31;
     color: #FFF;
@@ -37,6 +69,15 @@ header nav  ul{
 header nav ul li{
     float: left;
    padding: 20px;
+  
+ }
+ header nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+ }
+ header nav ul li.active a,
+ header nav ul li a:hover{
+    color: #2ecc71;
  }
 
 /*end header */
@@ -65,21 +106,21 @@ main .feat h2 {text-transform: uppercase;}
 .about-me .imagee {
     float:left;
     width: 40%;
-
 }
+
 .about-me .imagee img {
     width: 100%;
 }
 .about-me .inf{
     float: left;
     width: 60%;
-
 }
+
 .about-me .inf .hobbes {
-   
    margin: 20px;
    overflow: hidden;
 }
+
 .about-me .inf .hobbes > div{
     width: 50%;
     min-height: 100px;
@@ -129,21 +170,17 @@ main .feat h2 {text-transform: uppercase;}
 /* End testimonial */
 /* star portfolio */
 .portfolio{
-
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-
-  
-
-   
 }
+
 .portfolio .our-port{
     overflow: hidden;
 }
+
 .portfolio .our-port >div{
     width: 32%;
-    
     float: left;
 }
 .portfolio .our-port >div img{
